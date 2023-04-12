@@ -1,10 +1,10 @@
 package com.example.trackingservice.model;
 
-public class ShippingStatus {
+public class Update {
     private int itemId;
     private String status;
 
-    public ShippingStatus(int itemId, String status) {
+    public Update(int itemId, String status) {
         this.itemId = itemId;
         this.status = status;
     }
